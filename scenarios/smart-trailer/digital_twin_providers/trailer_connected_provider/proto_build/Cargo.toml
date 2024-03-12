@@ -1,0 +1,17 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+# SPDX-License-Identifier: MIT
+
+[package]
+name = "smart_trailer_interfaces"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+prost = "0.12.1"
+tokio = { version = "1.29.1", features = ["macros", "rt-multi-thread"] }
+tonic = "0.11.0"
+
+[build-dependencies]
+tonic-build = "0.11.0"

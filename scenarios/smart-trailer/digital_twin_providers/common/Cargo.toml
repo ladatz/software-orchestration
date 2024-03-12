@@ -1,0 +1,13 @@
+[package]
+name = "digital_twin_providers_common"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+# In-vehicle digital twin interface
+core-protobuf-data-access = { git = "https://github.com/eclipse-ibeji/ibeji", tag = "0.1.0" }
+# Service discovery interface
+service_discovery_proto = { git = "https://github.com/eclipse-chariott/chariott" }
+log = "0.4.20"
+tonic = "0.11.0"
